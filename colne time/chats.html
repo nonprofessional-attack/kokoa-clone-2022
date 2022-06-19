@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kokoa talk</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      #nav__fa-user,
+      #nav__fa-magnifying-glass,
+      #nav__fa-ellipsis {
+        color: rgb(150, 150, 150);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <a href="settings.html">
+          <span
+            ><i class="fa-solid fa-gear fa-lg" id="screen-header__fa-gear"></i>
+          </span>
+          <div class="screen-header__dot"></div>
+        </a>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i1.ruliweb.com/img/22/01/07/17e31d91d6710dfc5.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">우림 언니</h4>
+              <h6 class="user-component__subtitle">김윤아예요</h6>
+            </div>
+          </div>
+          <div class="user-component__column" id="user-component__time">
+            <span class="user-component__time">11:11</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://i2.ruliweb.com/img/22/01/07/17e31d8ba9610dfc5.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Fans</h4>
+            <h6 class="user-component__subtitle">
+              와 우림 언니 사인해주세요 우림 언니
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column" id="user-component__time">
+          <span class="user-component__time">11:10</span>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-solid fa-user fa-2x" id="nav__fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-solid fa-comment fa-2x" id="nav__fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i
+              class="fa-solid fa-magnifying-glass fa-2x"
+              id="nav__fa-magnifying-glass"
+            ></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__notification-small"></div>
+            <i class="fa-solid fa-ellipsis fa-2x" id="nav__fa-ellipsis"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/fe5c280ddb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
