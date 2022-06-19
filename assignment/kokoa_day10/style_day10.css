@@ -1,0 +1,126 @@
+body {
+  background-color: white;
+  border: 5px solid #00c6ae;
+  margin: 0;
+  padding: 30px;
+  width: 400px;
+  margin: 0 auto;
+}
+p {
+  margin: 5px 0;
+}
+h2 {
+  margin: 5px 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin: 40px 0;
+}
+
+.playlist {
+  display: flex;
+  align-items: center;
+}
+.playlist__column {
+  width: 33%;
+}
+.playlist__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+.playlist__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+}
+.button__play {
+  width: 200px;
+  height: 70px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 2px 2px 4px 2px;
+}
+.fa-play {
+  margin: 0 10px;
+}
+.button__like {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  border-width: 2px 2px 4px 2px;
+}
+.button__add {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  border-width: 2px 2px 4px 2px;
+}
+
+.music {
+  display: flex;
+  flex-direction: column;
+}
+.music__box {
+  width: 70px;
+  height: 70px;
+  border-radius: 25%;
+  border: 2px solid black;
+}
+.music__text {
+  margin: 0 20px;
+}
+.music-big {
+  display: flex;
+  align-items: center;
+}
+.music__box-big {
+  width: 120px;
+  height: 120px;
+  border-radius: 25%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.music__text-big {
+  margin: 0 20px;
+  font-size: 150%;
+}
+.fa-image {
+  color: white;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+.yellow {
+  background-color: darkorange;
+}
+.tomato {
+  background-color: tomato;
+}
+.pink {
+  background-color: hotpink;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: darkseagreen;
+}
